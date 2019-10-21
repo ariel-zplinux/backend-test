@@ -1,7 +1,6 @@
 # Backend test with Node
 
 ## Stack
------
 
 - Node
 - Koa
@@ -9,7 +8,6 @@
 - Docker
 
 ## Quick Start
------------
 
 ### Install application.
 
@@ -43,7 +41,6 @@ docker run -p 3000:3000 zplinuxoss/backend-test
 ```
 
 ## API endpoints
--------------
 
 |HTTP Method|Url|Parameters|Description|
 |---|---|---|---|
