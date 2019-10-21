@@ -1,0 +1,19 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "description": "Backend mission test tasks",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest"
+  },
+  "author": "Ariel Biton",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.10.0",
+    "koa-router": "^7.4.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
