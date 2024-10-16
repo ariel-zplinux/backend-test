@@ -1,20 +1,17 @@
-const koa = require('koa');
-const router = require('koa-router')();
-
-const jsonInput = require('./assets/json/headtohead.json');
-const { 
-    viewAllPlayers,
-    viewPlayerById
-} = require('./tasks.js');
+import koa from 'koa';
+import koaRouter from 'koa-router';
+import User, { getUsers } from './model.js';
 
 const app = new koa();
+const router = new koaRouter();
 
-router.get('/players', viewAllPlayers);
-
-router.get('/players/:id', viewPlayerById);
+router.get('/users', getUsers);
 
 app.use(router.routes()); 
 
-if (!module.parent) app.listen(3000);
+app.listen(3000);
 
-module.exports = app;
+const jane = await User.create({
+    firstName: 'jaane',
+    lastName: 'doe',
+});
