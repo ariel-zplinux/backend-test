@@ -44,4 +44,4 @@ noshir@fedora:~/dev/backend-test$ curl http://localhost:3000/users | jq
 
 - https://koajs.com/
 - https://sequelize.org/
-- https://github.com/ariel-zplinux/backend-test
+- https://github.com/ariel-zplinux/backend-test/tree/VELVET_SEQUELIZE
