@@ -28,8 +28,6 @@ async function getUsers(ctx) {
   const users = await User.findAll();
 
   ctx.body = users;
-
-  return users;
 }
 
 export default User;

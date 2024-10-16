@@ -14,6 +14,7 @@
 ```shell
 git clone https://github.com/ariel-zplinux/backend-test.git
 cd backend-test
+git checkout VELVET_SEQUELIZE
 npm install
 npm start
 ```
